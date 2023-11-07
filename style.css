@@ -1,0 +1,58 @@
+body,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 1rem;
+    text-align: center;
+}
+
+.partition{
+    width: 100%;
+    border-top: 3px dotted red;
+    border-radius: 50%;
+}
+
+.tableWrap{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 95%;
+}
+
+table tr td a{
+    text-decoration: none;
+}
+
+table tr td.srn{
+    width: 10%;
+}
+
+table tr td.content{
+    width: 100%;
+}
+
+table tr td.View{
+    background-color: aliceblue;
+    border: 2px solid rgb(102, 102, 102);
+    width: 94%;
+    display: flex;
+    justify-content: center;
+}
+
+table tr td.View a{
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+table tr td.View:hover{
+    background-color: bisque;
+    border: 2px solid rgb(151, 67, 67);
+}
